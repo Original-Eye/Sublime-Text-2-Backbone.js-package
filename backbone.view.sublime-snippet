@@ -10,7 +10,7 @@ Backbone.View.extend({
 
 	events: {},
 
-	template: _.template().html()),
+	template: _.template().html(),
 
 	initialize: function() {
 
