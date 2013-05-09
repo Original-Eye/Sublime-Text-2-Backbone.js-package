@@ -10,7 +10,7 @@ Backbone.View.extend({
 
 	events: {},
 
-	template: _.template(().html()),
+	template: _.template(("tpl-").html()),
 
 	initialize: function() {
 
@@ -23,7 +23,6 @@ Backbone.View.extend({
 		return this;
 
 	}
-
 });
 ]]></content>
     <tabTrigger>bv</tabTrigger>
