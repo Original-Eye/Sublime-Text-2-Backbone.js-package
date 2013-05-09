@@ -24,8 +24,6 @@ Backbone.View.extend({
 
 	}
 
-	
-	});
 });
 ]]></content>
     <tabTrigger>bv</tabTrigger>
