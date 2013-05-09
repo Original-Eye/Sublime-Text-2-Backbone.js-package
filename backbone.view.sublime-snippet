@@ -1,6 +1,32 @@
 <snippet>
     <content><![CDATA[
-Backbone.View.extend({${0:properties}});
+Backbone.View.extend({
+
+    el: '',
+
+	tagName: '',
+
+	className: '',
+
+	events: {},
+
+	template: _.template().html()),
+
+	initialize: function() {
+
+		return this;
+
+	},
+
+	render: function() {
+
+		return this;
+
+	}
+
+	
+	});
+});
 ]]></content>
     <tabTrigger>bv</tabTrigger>
     <scope>source.js</scope>
